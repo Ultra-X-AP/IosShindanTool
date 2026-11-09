@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サポート / Support — iOS診断 SHINDAN</title>
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <img src="../icon.png" alt="">
+      <div>
+        <div class="name"><a href="../">iOS診断 SHINDAN</a></div>
+        <div class="sub">SHINDAN for iOS</div>
+      </div>
+    </header>
+
+    <nav class="lang">
+      <a href="#ja">日本語</a>
+      <a href="#en">English</a>
+    </nav>
+
+    <section class="doc" id="ja" lang="ja">
+      <h1>サポート</h1>
+      <p class="meta">iOS診断 SHINDAN（アプリ・App Clip）</p>
+
+      <h2>お問い合わせ</h2>
+      <p>ご質問や不具合のご報告は、下記のメールアドレスまでお送りください。</p>
+      <p>メール：<a href="mailto:tech-setup@uxd.co.jp">tech-setup@uxd.co.jp</a></p>
+      <p>スムーズな対応のため、次の情報をお書き添えください。</p>
+      <ul>
+        <li>iPhoneの機種とiOSのバージョン</li>
+        <li>アプリとApp Clipのどちらを使用したか</li>
+        <li>問題が起きたテストと、表示された内容（スクリーンショットがあれば添付してください）</li>
+      </ul>
+
+      <p>パスワード、決済情報、その他の不要な個人情報は送信しないでください。スクリーンショットに含まれる個人情報は隠してください。お問い合わせの情報の取り扱いについては、<a href="../privacy/#support-data-ja">プライバシーポリシー</a>をご覧ください。</p>
+
+      <h2>動作環境</h2>
+      <ul>
+        <li>アプリ：iOS 15.0以降のiPhone</li>
+        <li>App Clip：iOS 17.6以降のiPhone</li>
+        <li>表示言語：日本語・英語（ホーム画面右上の地球儀ボタンで切り替え）</li>
+      </ul>
+
+      <h2>使い方</h2>
+      <ol>
+        <li>ホーム画面で「フルテストを開始」をタップすると、6つのテストを順番に実行します。1つだけ確認したい場合は「個別テスト」から選んでください。</li>
+        <li>各テストの手順は、画面右上の「？」ボタンで確認できます。</li>
+        <li>テストが終わったら左上の矢印ボタンをタップし、「はい」「いいえ」「未実施」から結果を選びます。</li>
+        <li>すべて終わると、結果をまとめたバーコードが表示されます。最新の結果はホーム画面にも表示されます。</li>
+      </ol>
+
+      <h2>結果バーコードの見方</h2>
+      <p>バーコードの6桁の数字は、左から次のテストの結果を表します。</p>
+      <table>
+        <tr><th>桁</th><th>テスト</th></tr>
+        <tr><td>1</td><td>操作・音・振動</td></tr>
+        <tr><td>2</td><td>画面タッチ</td></tr>
+        <tr><td>3</td><td>カメラとフラッシュ</td></tr>
+        <tr><td>4</td><td>センサー</td></tr>
+        <tr><td>5</td><td>スピーカーとマイク</td></tr>
+        <tr><td>6</td><td>NFCリーダー</td></tr>
+      </table>
+      <p>各桁の意味：<code>1</code> = 正常（はい）、<code>0</code> = 異常（いいえ）、<code>2</code> = 未実施</p>
+
+      <h2>よくある質問</h2>
+
+      <h3>テストが「未実施」になってしまいます。</h3>
+      <p>カメラ、マイク、モーションセンサーの使用を許可しなかった場合や、その機能が端末で利用できない場合は「未実施」になります。iOSの「設定」アプリで「SHINDAN」を開き、許可をオンにしてから、もう一度テストしてください。</p>
+
+      <h3>NFCテストでカードが検出されません。</h3>
+      <p>「NFCスキャンを開始」をタップしてから、カードを1枚だけiPhoneの上部に近づけてください。複数のカードを重ねると検出できません。対応していない種類のカードやタグもあります。本アプリはカードの種類だけを確認し、残高や利用履歴などの内容は読み取りません。</p>
+
+      <h3>App Clipでセンサーの値が表示されません。</h3>
+      <p>「モーションを有効にする」をタップし、表示される確認画面でアクセスを許可してください。そのあと端末をゆっくり傾けると、ボールと数値が動きます。App Clipでは加速度・回転・傾きを確認し、磁場と高度はテストしません。</p>
+
+      <h3>スピーカーやマイクの音が聞こえません。</h3>
+      <p>消音モードと音量を確認し、Bluetoothイヤホンなどが接続されていないことを確認してください。マイクテストでは5秒間録音したあと、自動で再生します。</p>
+
+      <h3>アプリとApp Clipの違いは何ですか？</h3>
+      <p>App Clipはインストール不要ですぐに使える軽量版です。6つのテストはどちらでも実行できますが、App Clipのセンサーテストは加速度・回転・傾きのみです。すべてのセンサーを確認するにはアプリをご利用ください。</p>
+
+      <h3>診断データはどこかに送信されますか？</h3>
+      <p>いいえ。診断はすべて端末内で行われ、データが送信されることはありません。詳しくは<a href="../privacy/#ja">プライバシーポリシー</a>をご覧ください。</p>
+
+      <h3>保存された結果を削除するには？</h3>
+      <p>アプリまたはApp Clipを削除すると、保存された結果もすべて削除されます。</p>
+    </section>
+
+    <section class="doc" id="en" lang="en">
+      <h1>Support</h1>
+      <p class="meta">SHINDAN for iOS (app and App Clip)</p>
+
+      <h2>Contact us</h2>
+      <p>For questions or to report a problem, email us at:</p>
+      <p>Email: <a href="mailto:tech-setup@uxd.co.jp">tech-setup@uxd.co.jp</a></p>
+      <p>To help us respond quickly, please include:</p>
+      <ul>
+        <li>your iPhone model and iOS version,</li>
+        <li>whether you used the app or the App Clip, and</li>
+        <li>which test had the problem and what you saw (a screenshot helps).</li>
+      </ul>
+
+      <p>Please do not send passwords, payment information, or unrelated personal information. Hide personal information in screenshots before sending them. See our <a href="../privacy/#support-data-en">Privacy Policy</a> for how we handle support correspondence.</p>
+
+      <h2>Requirements</h2>
+      <ul>
+        <li>App: iPhone with iOS 15.0 or later</li>
+        <li>App Clip: iPhone with iOS 17.6 or later</li>
+        <li>Languages: Japanese and English (switch with the globe button at the top right of the home screen)</li>
+      </ul>
+
+      <h2>How to use</h2>
+      <ol>
+        <li>On the home screen, tap <strong>Start full test</strong> to run all six tests in order. To check just one, choose it under <strong>Individual tests</strong>.</li>
+        <li>Tap the <strong>?</strong> button at the top right to see instructions for the current test.</li>
+        <li>When a test is done, tap the arrow button at the top left and choose <strong>Yes</strong>, <strong>No</strong>, or <strong>Not tested</strong>.</li>
+        <li>After the last test, a barcode summarizing your results appears. Your latest result is also shown on the home screen.</li>
+      </ol>
+
+      <h2>Reading the result barcode</h2>
+      <p>The six digits under the barcode show the result of each test, from left to right:</p>
+      <table>
+        <tr><th>Digit</th><th>Test</th></tr>
+        <tr><td>1</td><td>Interaction, sound &amp; vibration</td></tr>
+        <tr><td>2</td><td>Screen touch</td></tr>
+        <tr><td>3</td><td>Cameras &amp; flash</td></tr>
+        <tr><td>4</td><td>Sensors</td></tr>
+        <tr><td>5</td><td>Speaker &amp; microphone</td></tr>
+        <tr><td>6</td><td>NFC reader</td></tr>
+      </table>
+      <p>Each digit means: <code>1</code> = passed (Yes), <code>0</code> = failed (No), <code>2</code> = not tested.</p>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>Why is a test marked "Not tested"?</h3>
+      <p>A test is marked Not tested if you didn't allow access to the camera, microphone, or motion sensors, or if that feature isn't available on the device. Open the iOS Settings app, go to SHINDAN, turn the permission on, and run the test again.</p>
+
+      <h3>The NFC test doesn't detect my card.</h3>
+      <p>Tap <strong>Start NFC scan</strong>, then hold a single card near the top of the iPhone. Stacked cards can't be detected, and some card and tag types aren't supported. The App only checks the card type; it never reads balances, travel history, or other card contents.</p>
+
+      <h3>The App Clip doesn't show sensor readings.</h3>
+      <p>Tap <strong>Enable motion</strong> and allow access when asked. Then gently tilt the phone; the ball and values should move. The App Clip tests acceleration, rotation, and tilt only; magnetic field and altitude are not tested.</p>
+
+      <h3>I can't hear the speaker or microphone playback.</h3>
+      <p>Check that Silent Mode is off, the volume is up, and no Bluetooth headphones are connected. The microphone test records for five seconds and then plays the recording automatically.</p>
+
+      <h3>What's the difference between the app and the App Clip?</h3>
+      <p>The App Clip is a lightweight version you can use instantly without installing. Both run all six tests, but the App Clip's sensor test covers acceleration, rotation, and tilt only. Use the full app to check every sensor.</p>
+
+      <h3>Is my diagnostic data sent anywhere?</h3>
+      <p>No. All diagnostics run on your device and no data is sent. See our <a href="../privacy/#en">Privacy Policy</a> for details.</p>
+
+      <h3>How do I delete saved results?</h3>
+      <p>Deleting the app or App Clip deletes all saved results.</p>
+    </section>
+
+    <footer class="site">
+      <p><a href="../privacy/">プライバシーポリシー / Privacy Policy</a> · © 2026 株式会社ウルトラエックス / Ultra-X ASIA PACIFIC</p>
+    </footer>
+  </div>
+</body>
+</html>
